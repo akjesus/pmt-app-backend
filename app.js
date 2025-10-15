@@ -7,7 +7,7 @@ const helmet = require("helmet");
 const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const dotenv = require("dotenv");
-dotenv.config({ path: "../.env" });
+dotenv.config({ path: "./.env" });
 
 
 
